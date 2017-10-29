@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Mobile Safari introduced the "viewport meta tag" to let web developers control the viewport's size and scale. Many other mobile browsers now support this tag, although it is not part of any web standard. This idea was sourced from https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag-->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Final Fantsy XV</title>
 <link href="css.css" rel="stylesheet" type="text/css">
@@ -12,33 +13,39 @@
             
   <header> 
     
-    <div id="logo"><img id="imglogo" src="images/fflogo.png" alt=""/></div>
-    
+    <div id="logo"><img id="imglogo" src="images/fflogo.png" alt="Final Fantasy XV"/></div>
+    <!--An id has been used for both the div and logo image as it has been identified as a good idea by a number of authors to tray and include # in the header or nav as serach engines and browser will be able tag the data for optimising searches. This is why I have also included alt text for all my images as the name of the game-->
+    <!--This nav bar and logo has been adpated from an example at https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+    <!--The img logo has been sourced from https://www.finalfantasyxv.com-->
     <nav> 
     <a href="index.html" title="Link">Home</a> 
     <a href="Protaganists.html" title="Link">Protaganists</a>
     <a href="Antagonists.html" title="Link">Antagonists</a>
     <a href="Eos.html" title="Link">Eos</a> 
     </nav>
+    <!--This nav bar and logo has been adpated from an example at https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
     
   </header>
 
             
           
   <div class="contentcontainer">
-   
+  <!--This div is used as the main content wrapper and makes the responive use of the webpage easer to style in the css. This was suggested by W3C valadation.--> 
             
            <h1>Final Fantasy XV</h1>
         
-           <img class="full-width-image" src="images/FFvid.gif"  alt="alt_text" >
-            
+           <img class="full-width-image" src="images/FFvid.gif"  alt="Final Fantasy XV Image" >
+           <!--This gif has been edited using video footage sourced from https://youtu.be/Fi1nNHMf_7w-->
+            <!--All images within the paragraphs use the same class "full-width-image" which is set to 100% width in the css to help with different size browsers and screens--> 
            <h1>About</h1>
        
            <p> Final Fantasy XV is an open world action role-playing video game developed and published by Square Enix for the PlayStation 4, Xbox One and Microsoft Windows. Being the fifteenth main installment in the Final Fantasy series, the game was released for the PS4 and Xbox One in November 2016, and will be released for Windows in early 2018.</p>
+           <!--This text has been sourced from https://en.wikipedia.org/wiki/Final_Fantasy_XV-->
+           <img class="full-width-image" src="images/indeximg.jpg"  alt="Final Fantasy XV Image" >
+           <!--the image was sorced from http://gameranx.com/features/id/39482/article/dishonored-2-wallpapers-in-ultra-hd-4k-2/-->
            
-           <img class="full-width-image" src="images/indeximg.jpg"  alt="alt_text" >
-           
-           <p>The game features an open-world environment and action-based battle system, incorporating the ability to switch weapons and other elements such as vehicle travel and camping.</p> 
+           <p>The game features an open-world environment and action-based battle system, incorporating the ability to switch weapons and other elements such as vehicle travel and camping.</p>
+           <!--This text has been sourced from https://en.wikipedia.org/wiki/Final_Fantasy_XV--> 
         
            
         
@@ -46,23 +53,30 @@
            <h1>Magic - Astrals - Ascension</h1>
    
   <div class="gallery">
-    
+  <!--This div contains the image gallery and has been adapted from an idea for a responsive thumbnail gallery at https://designshack.net/articles/css/how-to-build-a-responsive-thumbnail-gallery/. This creates a responsive design for the images once the broswer is collaped below 500px--> 
+  <!--I have used a place holder for href links as if in the future I want to add futher functions or links--> 
 	    <div class="galleryItem">
-		<a href="#"><img src="images/magic.png" alt="" /></a>
+		<a href="#"><img src="images/magic.png" alt="Final Fantasy XV Image" /></a>
+		<!--This image has been sourced from https://www.wired.com/2016/12/final-fantasy-xv-patch/-->
 		<h2>Magic</h2>
 		<p>Elemental magic is available from the start, and ring magic is unlocked in the thirteenth chapter. They either consume an enemy's life-force to heal Noctis, damage foes,or eradicate all foes in the area.</p>
+        <!--This text has been sourced from http://finalfantasy.wikia.com/wiki/Final_Fantasy_XV--> 
 	    </div>
  
 	    <div class="galleryItem">
-		<a href="#"><img src="images/Astrals.png" alt="" /></a>
+		<a href="#"><img src="images/Astrals.png" alt="Final Fantasy XV Image" /></a>
+		<!--This image has been sourced from http://finalfantasy.wikia.com/wiki/Astral-->
 		<h2>Astrals</h2>
 		<p>Astrals canonly be summoned by Noctis. They are acquired through story events. The summons are the strongest attacks the player can perform, and deal damage to all enemies in battle</p>
+        <!--This text has been sourced from http://finalfantasy.wikia.com/wiki/Final_Fantasy_XV-->
 	    </div>
 	    
 	    <div class="galleryItem">
-		<a href="#"><img src="images/acension.jpg" alt="" /></a>
+		<a href="#"><img src="images/acension.jpg" alt="Final Fantasy XV Image" /></a>
+		<!--This image has been sourced from http://www.gamerevolution.com/features/13177-ffxv-guide-which-ascension-skills-to-level-first#/slide/1-->
 		<h2>Ascension</h2>
 		<p>Ascension doesn't only affect combat, but can also be used to extend buffs obtained from food cooked at camp, which will make Noctis sprint longer, among various other effects.</p>
+        <!--This text has been sourced from http://finalfantasy.wikia.com/wiki/Final_Fantasy_XV-->
 	    </div>
 	    
   </div>
@@ -70,18 +84,24 @@
          <h1>Story</h1>
    
           <p> Enroute to wed his fiancée Luna on a road trip with his best friends, Prince Noctis is advised by news reports that his homeland has been invaded and taken over under the false pretense of a peace treaty – and that he, his loved one and his father King Regis, have been slain at the hands of the enemy.</p>
-         
-         <img class="full-width-image" src="images/story.jpg"  alt="alt_text" >
-         
-        <p>To gather the strength needed to uncover the truth and reclaim his homeland, Noctis and his loyal companions must overcome a series of challenges in a spectacular open world - that is filled with larger-than-life creatures, amazing wonders, diverse cultures and treacherous foes.</p> 
-          
+         <!--This text has been sourced from https://www.finalfantasyxv.com-->
+         <img class="full-width-image" src="images/story.jpg"  alt="Final Fantasy XV Image" >
+         <!--This image has been sourced from https://www.finalfantasyxv.com-->
+         <p>To gather the strength needed to uncover the truth and reclaim his homeland, Noctis and his loyal companions must overcome a series of challenges in a spectacular open world - that is filled with larger-than-life creatures, amazing wonders, diverse cultures and treacherous foes.</p> 
+         <!--This text has been sourced from https://www.finalfantasyxv.com--> 
    
-         <h1>End</h1>
+         
           
  
   
             
 </div>
+          
+<footer>
+   
+    <h1>End</h1>
+    
+  </footer>
            
 </body>
 
