@@ -1,0 +1,300 @@
+@charset "utf-8";
+header{
+    width: 100%;
+    height: 125px;
+}
+
+header .logo{
+    float: left;
+    max-width: 12%;
+    margin-top: 50px;
+}
+
+header nav{
+    float: right;
+    margin-top: 57px;
+}
+
+
+header nav ul li{
+    list-style: none;
+    display: block;
+    float: left;
+    margin-left: 50px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+
+    font-size: 0.875em;
+
+
+
+}
+
+header.light nav ul li a{
+    color: #fff;
+}
+
+header.light nav ul li a:hover{
+    color: #B9B9B9;
+}
+
+li{padding-right: 1px}
+
+
+body{
+    background: #fff;
+    font: 14px Helvetica, Arial, Sans-serif;
+}
+
+.search-box{padding-top: 4px; text-align:center;vertical-align:middle;}
+
+
+#city {
+  background: #fff;
+
+  border-radius: 5px;
+
+  padding: 5px;
+  text-align: center;
+}
+
+#city label {
+
+  color: #fff;
+font:Helvetica, Arial, Sans-serif;
+  font-size: 1em;
+  margin:0px;
+}
+
+#search {
+
+  padding-top: 5px;
+	border-color: #f1f1f1;
+
+  outline-width: 0;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font:Helvetica, Arial, Sans-serif;
+  background: #fff;
+  cursor: pointer;
+}
+h1, h2, h3, h4, h5 ,h6{
+    color: #626262;
+    font-family: arial;
+    letter-spacing: 1px;
+}
+
+h1              { font-size: 2em; margin: .67em 0 }
+h2              { font-size: 1.5em; margin: .75em 0 }
+h3              { font-size: 1.5em; margin: .75em 0 ;text-align: center; padding-top: 7px;}
+h4 { font-size: 1.1em;text-align: center;border-bottom:solid;border-bottom-width:2px;border-bottom-color:#a7cdf2; }
+h5              { font-size: .83em; margin: 1.5em 0;text-align: center;}
+h6              { font-size: 1.5em; margin: .75em 0 ;text-align: center; padding-top: 7px;border-bottom:solid;border-bottom-width:2px;border-bottom-color:#a7cdf2;}
+h1, h2, h3,
+h5, h6          { font-weight: bolder }
+
+
+
+
+
+
+
+
+
+
+/*    Billboard    */
+.billboard{
+    width: 100%;
+    height: 570px;
+    position: center;
+}
+
+.billboard.light{
+    background-image: url(images/weatherBK.jpg);
+
+    background-size:cover;
+
+}
+
+.billboard.dark{
+    background-image: url(images/sunny.jpg);
+
+    background-size:cover;
+
+}
+
+
+
+
+.billboard .caption{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.billboard .caption.light{
+    color: #fff;
+}
+
+.billboard .caption.dark{
+    color: #5d5d5d;
+}
+
+.billboard .caption h1{
+
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.billboard .caption.light h1{
+    color: #fff;
+}
+
+
+
+.billboard .caption.light p{
+    color: #fff;
+}
+
+
+
+.billboard .caption hr{
+    display: inline-block;
+    height: 1px;
+    width: 30px;
+    border: 0!important;
+    margin: 0;
+    padding: 0;
+}
+
+.billboard .caption.light hr{
+    background: #fff;
+}
+
+.search-box{width:100%;overflow:hidden}
+
+.contentcontainer{max-width:1000px;margin:auto;width:100%!important}
+
+
+.gallery{width:100%;overflow:hidden}
+/*All the techniques of the gallery are adapted and mofidifed from https://designshack.net/articles/css/how-to-build-a-responsive-thumbnail-gallery/*/
+/*This gallery is on the index page and uses a three 'column-like' design*/
+
+.galleryItem{color:#555;float:left;border-bottom:solid;border-bottom-width:2px;border-bottom-color:#a7cdf2;}
+/*This class is for the div that holds the text and image for each thumbnail and has some positioning and styling*/
+
+.galleryItem h2{text-transform:uppercase;text-align: center;}
+/*This styles the h2 within the gallery*/
+
+.galleryItem img{max-width:100%;border-radius:5px}
+/*This ensures the image is at 100% for the responive design*/
+
+.galleryItem{color:#555;float:left;margin:1px;width:32.9%}
+/*This styles and sizes the font of the gallery and the width aligns the thumbnails three in a row.*/
+.map {
+
+
+  height:400px;
+
+}
+
+
+/*This styles and sizes the font of the gallery and the width aligns the thumbnails three in a row.*/
+.gallery2{width:100%;overflow:hidden}
+/*gallery 2 is for pages 2.3. and 4. This gallery class uses the same techniques as gallery 1 but is slightly differnet in design as this uses a two 'column-like' design.*/
+
+.gallery2Item{color:#555;float:left}
+
+.gallery2Item h2{text-align: center;text-transform:uppercase}
+
+.gallery2Item img{max-width:100%;border-radius:5px;margin:15.5px;}
+.gallertxt {margin:16px}
+.gallery2Item{color:#555;font:1em sans-serif;float:left;width:40%;}
+
+
+
+.full-width-image{width:100%;height:auto;border-radius:5px}
+/*this class ensures that all the images within the paragraphs are maintained at 100% width agin to help with the responsive design*/
+
+
+
+
+
+/*    footer    */
+footer{
+    padding: 35px 0;
+    overflow: hidden;
+    max-width:1000px;margin:auto;width:100%;
+}
+
+footer .footer_logo{
+    max-width: 10%;
+    float: left;
+}
+
+
+
+footer nav ul{
+    float: right;
+    overflow: hidden;
+    list-style: none;
+    margin-top: 5px;
+}
+
+footer nav ul li{
+    float: left;
+    margin-left: 25px;
+}
+
+footer nav ul li a{
+    color: #838181;
+
+    font-size: 0.813em;
+    text-decoration: none;
+
+    transition:all .2s linear;
+
+}
+
+footer nav ul li a:hover{
+    color: #616161;
+}
+
+@media screen and (max-width:1000px){header #logo{width:96%;margin-left:2%;text-align:center}
+
+header nav{text-align:center;width:98%}
+/*This media query is for the header and nav for the responsive design. When the browser is collaped below 500px the Logo and nav a are centred for smaller screens, as if they were aligned like the dektop version they would be to small to see on smaller screens*/
+/*This idea was adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
+
+}
+
+
+
+.gallery2Item{color:#555;font:1em sans-serif;float:left;margin:6px;width:47%}
+@media only screen and (max-width :1000px),only screen and (max-device-width :500px){.galleryItem{width:100%}
+.logo{width:100%;}
+.galleryItem h2{text-align:center}
+.galleryItem P{text-align:center}
+.galleryItem img{width:75%}
+.galleryItem img{display:block;margin:auto}
+.gallery2Item{width:96%}
+.gallery2Item h2{text-align:center}
+.gallery2Item P{text-align:center}
+.gallery2Item img{width:75%;margin:auto;}
+.gallery2Item img{display:block;margin:auto}
+/*This media query is for both the index gallery and gallery 2. When the browser is collapsed below 500px the images are rezized to a larger width of 75%. This forces the gallery into a long and thin column and by keeping the text-align to center, positions the text under the image, which makes the gallery now easly viewable on small screens*/
+/*The images have been kept at 75% width because some of the images edges were loast on some small sceens when set at 100% in testing.*/
+/*This idea has been adapted from https://designshack.net/articles/css/how-to-build-a-responsive-thumbnail-gallery/*/
+
+}@media only screen and (max-width :330px),only screen and (max-device-width :320px){.galleryItem{width:96%}
+.logo{width:100%;}
+.galleryItem img{width:75%}
+.galleryItem img{display:block;margin:auto}
+.gallery2Item{width:96%}
+.gallery2Item h2{text-align:center}
+.gallery2Item P{text-align:center}
+.gallery2Item img{width:75%;margin:auto;}
+.gallery2Item img{display:block;margin:auto}
+}
